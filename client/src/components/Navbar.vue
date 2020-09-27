@@ -7,7 +7,8 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item v-if="status!=='loggedIn'"><router-link class="nav-link" to="/LoginPanel" style="color: white;">Login</router-link></b-nav-item>
+        <b-nav-item v-if="status!=='loggedIn'"><router-link class="nav-link" to="/Login" style="color: white;">Login</router-link></b-nav-item>
+        <b-nav-item v-if="status!=='loggedIn'"><router-link class="nav-link" to="/Register" style="color: white;">Register</router-link></b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

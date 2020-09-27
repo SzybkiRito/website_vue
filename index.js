@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }))
 
-mongoose.connect(process.env.DB_URL, {useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false})
+mongoose.connect(process.env.DB_URL, {useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true})
     .then(() => console.log("Mongoose ==> Connected"))
     .catch((err) => console.log(`Mongoose ERROR ==> ${err}`))
 

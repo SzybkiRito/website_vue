@@ -11,6 +11,8 @@ import LoginPanel from '@/components/LoginPanel'
 import Navbar from '@/components/Navbar'
 import Home from '@/components/Home'
 import Profile from '@/components/Profile'
+import Login from '@/components/Login'
+import Register from '@/components/Register'
 
 export default {
   name: 'App',
