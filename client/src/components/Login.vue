@@ -86,12 +86,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-body {
-  font-family: "Noto Sans JP", sans-serif;
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%) no-repeat;
-  color: black;
-}
 </style>
 
 <style scoped>

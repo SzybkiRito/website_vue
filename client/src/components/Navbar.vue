@@ -1,7 +1,7 @@
 <template>
 <div>
   <b-navbar toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand><router-link class="nav-link" to="/" style="color: white; outline: 0;">Home</router-link></b-navbar-brand>
+    <b-navbar-brand><router-link class="nav-link" to="/Home" style="color: white; outline: 0;">Home</router-link></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -53,12 +53,6 @@ export default {
 </script>
 
 <style>
-body {
-  font-family: "Noto Sans JP", sans-serif;
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%) no-repeat;
-  color: black;
-}
 .dropdown-backdrop {
     position: static;
 }

@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import LoginPanel from '@/components/LoginPanel'
 import Navbar from '@/components/Navbar'
 import Home from '@/components/Home'
 import Profile from '@/components/Profile'
@@ -18,7 +17,6 @@ export default {
   name: 'App',
   components: {
     'Navbar': Navbar,
-    'LoginPanel': LoginPanel,
     'Home': Home,
     'Profile': Profile
   },
