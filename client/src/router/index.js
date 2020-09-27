@@ -9,7 +9,13 @@ import Register from '@/components/Register'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
+  hash: false,
   routes: [
+    {
+      path: '/',
+      redirect: '/Home'
+    },
     {
       path: '/Navbar',
       name: 'Navbar',
@@ -18,22 +24,34 @@ export default new Router({
     {
       path: '/Home',
       name: 'Home',
-      component: Home
+      component: Home,
+      meta: {
+        title: "Home"
+      }
     },
     {
       path: '/Login',
       name: 'Login',
-      component: Login
+      component: Login,
+      meta: {
+        title: "Login Panel"
+      }
     },
     {
       path: '/Profile',
       name: 'Profile',
-      component: Profile
+      component: Profile,
+      meta: {
+        title: "Your Profile"
+      }
     },
     {
       path: '/Register',
       name: 'Register',
-      component: Register
+      component: Register,
+      meta: {
+        title: "Register Panel"
+      }
     },
   ]
 })
